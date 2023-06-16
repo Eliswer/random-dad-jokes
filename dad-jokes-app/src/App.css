@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta&display=swap");
+
 :root {
   --rose-red: #b9314f;
   --dog-wood: #d5a18e;
@@ -12,6 +14,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: var(--rose-red);
+  font-family: "Mukta", sans-serif;
 }
 
 .wrapper {
@@ -21,9 +24,13 @@ body {
   border: 1px solid black;
   color: black;
   background-color: var(--platinum);
-  border-radius: 20px;
+  border-radius: 10px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
 button {
@@ -34,4 +41,23 @@ button {
   border: none;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
     rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1.5vw;
+}
+
+button:hover {
+  background-color: #bd8f7e;
+}
+
+.joke {
+  font-weight: bold;
+  font-size: 2.5vw;
+  margin: 0;
+  text-align: center;
+}
+
+.do-not-laugh {
+  font-size: 1.5vw;
+  margin: 0;
 }
