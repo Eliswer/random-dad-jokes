@@ -7,11 +7,15 @@ Generate a random dad joke with a click of a button
   3. API call to https://icanhazdadjoke.com/
 
 # How to set up:
-
-Start the server:
+Install dependecies:
 ```bash
 cd .\dad-jokes-app\
 ```
+```bash
+npm install
+```
+
+Start the server:
 ```bash
 npm start
 ```
